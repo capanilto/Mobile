@@ -1,0 +1,7 @@
+br/com/shared2021/BuildConfig.java
+ br.com.shared2021.BuildConfig
+br/com/shared2021/MainActivity.java
+ br.com.shared2021.MainActivity
+ br.com.shared2021.MainActivity$1
+ br.com.shared2021.MainActivity$2
+ br.com.shared2021.MainActivity$3
