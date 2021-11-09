@@ -1,0 +1,80 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"  android:stretchColumns="*"
+    android:background="#ffffff">
+    <!-- Linha 1 com uma coluna-->
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/TextView00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Linha 1"
+            android:layout_span="3"
+            android:padding="18dip"
+            android:background="#FF0000"
+            android:textColor="#000"/>
+    </TableRow>
+    <!-- Linha 2 com 2 colunas -->
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:text="Linha 2 Coluna 1"
+            android:layout_weight="1"
+            android:background="#00AF00"
+            android:textColor="#000000"
+            android:padding="18dip"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:text="Linha 2 Coluna 2"
+            android:layout_weight="1"
+            android:background="#00FF00"
+            android:textColor="#000000"
+            android:padding="18dip"
+            android:gravity="center"/>
+    </TableRow>
+    <!-- Linha 2 com 3 colunas -->
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:text="Linha 3 Coluna 1"
+            android:layout_weight="1"
+            android:background="#0000FF"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:text="Linha 3 Coluna 2"
+            android:layout_weight="1"
+            android:background="#0000CF"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:text="Linha 3 Coluna 3"
+            android:layout_weight="1"
+            android:background="#0000AF"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="center"/>
+    </TableRow>
+</TableLayout>

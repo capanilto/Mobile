@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">pratica2</string>
+    <string name="name_label">"Digite seu nome aqui: "</string>
+    <string name="see_message">Clique-me!</string>
+</resources>

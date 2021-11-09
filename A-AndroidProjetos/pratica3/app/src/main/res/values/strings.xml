@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">pratica3</string>
+    <string name="name_label">Nome:</string>
+    <string name="see_message">Clique aqui</string>
+</resources>
